@@ -1,12 +1,26 @@
-========================================================================
 Pong Wars
-Beta Version
-========================================================================
+=========
 
-=== Objective ===
+Pong Wars is Pong with a spicy twist. You are given two special abilities,
+Time Wrap and Adrenaline Mode. Use these two powerful abilities at the right
+time and you will find yourself in control of the field.
+
+I created Pong Wars to learn C++ and SDL back in 2006. I have only tried
+compiling it on Linux.
+
+Installing
+---------
+
+$ make
+$ ./pongwars
+
+Objective
+---------
+
 Defeat the other person. There are no game-based goals as of now.
 
-=== Game play options ===
+Options
+---------
 	
 	vs Human
 		- Player 1 vs Player 2, controls are below
@@ -14,7 +28,8 @@ Defeat the other person. There are no game-based goals as of now.
 	vs Computer
 		- Currently, there is only one difficulty level: normal.
 
-=== Controls ===
+Controls
+---------
 
 	General:
 		Esc - Quit.
@@ -31,7 +46,8 @@ Defeat the other person. There are no game-based goals as of now.
 		Arrow right - Time Wrap
 		Arrow left - Adrenaline Mode
 
-=== Specials ===
+Specials
+---------
 
   Time Wrap - Either reduces the speed of the ball if it is coming towards
         you or increases the speed of the ball if it is going away from you.
