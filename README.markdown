@@ -11,56 +11,57 @@ compiling it on Linux.
 Installing
 ---------
 
-$ make
-$ ./pongwars
+        $ make
+        $ ./pongwars
 
 Objective
 ---------
 
-Defeat the other person. There are no game-based goals as of now.
+Beat your opponent. Last one to survive wins.
 
 Options
 ---------
 	
-	vs Human
-		- Player 1 vs Player 2, controls are below
-
-	vs Computer
-		- Currently, there is only one difficulty level: normal.
+* vs Human
+  * Player 1 vs Player 2, controls are below
+* vs Computer
+  * Currently, there is only one difficulty level: normal.
 
 Controls
 ---------
 
-	General:
-		Esc - Quit.
-		
-	Player 1:
-		W - up
-		S - down
-		D - Time Wrap
-		A - Adrenaline Mode
-
-	Player 2:
-		Arrow up - up
-		Arrow down - down
-		Arrow right - Time Wrap
-		Arrow left - Adrenaline Mode
+* General:
+    * Esc - Quit.
+* Player 1:
+    * W - up
+    * S - down
+    * D - Time Wrap
+    * A - Adrenaline Mode
+* Player 2:
+    * Arrow up - up
+    * Arrow down - down
+    * Arrow right - Time Wrap
+    * Arrow left - Adrenaline Mode
 
 Specials
 ---------
 
-  Time Wrap - Either reduces the speed of the ball if it is coming towards
-        you or increases the speed of the ball if it is going away from you.
-        This special may reverse the direction of the ball.
+###  Time Wrap
 
-        Special 1 can only be used once per round and are recharged when you
-        score on your opponent. Everytime someone scores, a new round
-        begins.
+Either reduce the speed of the ball if it is coming towards you or increase
+the speed of the ball if it is going away from you. This special may
+reverse the direction of the ball.
 
-   Adrenaline Mode - In Adrenaline Mode, the player that makes the first
-        goal gains 2 points, while the defender loses 1 point.
+Time Wrap can only be used once per round and are recharged when you
+score on your opponent. Everytime someone scores, a new round
+begins.
 
-        Adrenaline Mode is activated once a player earns enough points.
-        After activation, the player may activate Adrenaline Mode at any
-        time.
+### Adrenaline Mode
+
+In Adrenaline Mode, the player that makes the first goal gains 2 points,
+while the defender loses 1 point.
+
+Adrenaline Mode is activated once a player earns enough points.
+After activation, the player may activate Adrenaline Mode at any
+time.
 
