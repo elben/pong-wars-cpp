@@ -65,3 +65,7 @@ Adrenaline Mode is activated once a player earns enough points.
 After activation, the player may activate Adrenaline Mode at any
 time.
 
+Screenshot
+---------
+
+![alt text](https://raw.github.com/eshira/pong-wars/master/pongwars.jpg "Pong Wars screenshot")
